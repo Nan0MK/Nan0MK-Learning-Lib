@@ -13,9 +13,16 @@ int subYay(int numIn1, int numIn2){
 // Whatever function *math points to also has to be an intager function and has to take in 2 intagers.
 int (*math)(int, int);
 
+//Idk why this version is any better
+typedef int (*opperator)(int, int);
+
 int main(){
 
+    opperator op;// Whatever
+
+
     //math = addYay; This would point *math to addYay(). Any integers passed into *math will now be passed into addYay().
+    
     int oper;
     std::cin >> oper;
     if(oper == 0){
