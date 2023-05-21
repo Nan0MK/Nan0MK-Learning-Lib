@@ -1,3 +1,8 @@
+/*
+This is something I pasted from bing chat.
+It ptobly got this from stack overflow.
+I'm going to delete this file when I''m done learning from it.
+*/
 #include <iostream>
 
 typedef struct {
